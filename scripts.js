@@ -1,11 +1,11 @@
-let navbar = document.querySelector('.navbar');
-menubar.onclick = () =>{
-  navbar.classList.toggle('active');
-}
+// let navbar = document.querySelector('.navbar');
+// menubar.onclick = () =>{
+//   navbar.classList.toggle('active');
+// }
 
-window.onscroll = () =>{
-  navbar.classList.remove('active');
-}
+// window.onscroll = () =>{
+//   navbar.classList.remove('active');
+// }
 
 document.querySelector('#search-icon').onclick = () =>{
   document.querySelector('#search-form').classList.toggle('active');
@@ -50,20 +50,20 @@ var swiper = new Swiper(".review-slider", {
   // },
 
   loop:true, 
-  breakpoints:{
-    0:{
-      slidePerView:1,
-    },
-    640:{
-      slidePerView:2,
-    },
-    768:{
-      slidePerView:3,
-    },
-    1024:{
-      slidePerView:4,
-    },
-  },
+  // breakpoints:{
+  //   0:{
+  //     slidePerView:1,
+  //   },
+  //   640:{
+  //     slidePerView:2,
+  //   },
+  //   768:{
+  //     slidePerView:3,
+  //   },
+  //   1024:{
+  //     slidePerView:4,
+  //   },
+  // },
 });
 
 //loading
